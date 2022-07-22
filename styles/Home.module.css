@@ -14,27 +14,3 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.VectorImageContainer {
-  /* position: absolute;
-  bottom: 0; */
-}
-.FgHeroContainer {
-  z-index: 0;
-}
-.greetingMsg {
-  font-size: 12vw;
-  color: transparent;
-  -webkit-text-stroke-color: white;
-  -webkit-text-stroke-width: 2px;
-}
-.introMsg {
-  font-size: 12vw;
-  color: white;
-}
-.professionMsg {
-  z-index: 2;
-  font-size: 8vw;
-  color: transparent;
-  -webkit-text-stroke-color: white;
-  -webkit-text-stroke-width: 2px;
-}

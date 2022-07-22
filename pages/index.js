@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import VectorImage from "../Components/vectorImage/vectorImage";
+import Phase2Module from "../Components/Phase2/Phase2Module";
 
 export default function Home() {
   return (
@@ -12,13 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.mainContainer}>
-        <div className={styles.VectorImageContainer}>
-          <VectorImage />
-        </div>
-        <h1 className={styles.introMsg}>My Name is Munyyb!</h1>
-        <h2 className={styles.professionMsg}>
-          I am a Full-stack Developer and UI/UX Designer...
-        </h2>
+        <Phase2Module />
       </div>
     </div>
   );
