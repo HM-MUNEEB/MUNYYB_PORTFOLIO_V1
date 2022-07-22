@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import VectorImage from "../Components/vectorImage";
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.mainContainer}>
-        <h1 className={styles.greetingMsg}>Hello There...</h1>
+        <div className={styles.VectorImageContainer}>
+          <VectorImage />
+        </div>
         <h1 className={styles.introMsg}>My Name is Munyyb!</h1>
         <h2 className={styles.professionMsg}>
           I am a Full-stack Developer and UI/UX Designer...
