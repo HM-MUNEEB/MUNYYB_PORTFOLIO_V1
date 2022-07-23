@@ -1,0 +1,31 @@
+.phase2Container {
+  width: 100vw;
+  height: 100vh;
+  padding: 8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.VectorImageContainer {
+  z-index: 1;
+}
+.greetingMsg {
+  font-size: 12vw;
+  color: transparent;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 2px;
+}
+.introMsg {
+  font-size: 12vw;
+  color: white;
+  z-index: 0;
+}
+.professionMsg {
+  z-index: 2;
+  font-size: 8vw;
+  color: transparent;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 2px;
+}
